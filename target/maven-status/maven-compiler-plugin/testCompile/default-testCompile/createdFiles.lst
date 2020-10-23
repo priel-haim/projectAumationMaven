@@ -1,0 +1,8 @@
+Tests\RunningSoftware.class
+Tests\TestLoginSite.class
+Tests\AccountUpgrade.class
+Tests\AppTest.class
+Tests\CustomShirtConfigurator.class
+Tests\TestUserAndPassword.class
+Tests\ShoppingOrderForm.class
+Tests\BaseTest.class

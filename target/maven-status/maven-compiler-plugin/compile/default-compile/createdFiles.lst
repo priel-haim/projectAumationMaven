@@ -1,0 +1,12 @@
+PageObject\BasePage.class
+PageObject\MenuPage.class
+PageObject\ChooseASubscriptionThatSuitsYou.class
+PageObject\ChooseProjectType.class
+PageObject\LoginPage.class
+PageObject\Templates.class
+PageObject\CustomShirtConfiguratorPage.class
+PageObject\MyMenu.class
+PageObject\YouAreAlmostOnStarter.class
+PageObject\MyWorkspace.class
+PageObject\TechnologyQuizPage.class
+PageObject\ShoppingOrderFormPage.class

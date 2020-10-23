@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="55929" started-at="2020-10-21T12:49:30 IDT" finished-at="2020-10-21T12:50:26 IDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="55929" started-at="2020-10-21T12:49:30 IDT" finished-at="2020-10-21T12:50:26 IDT">
+      <class name="Tests.RunningSoftware">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="Setup" is-config="true" duration-ms="8811" started-at="2020-10-21T12:49:30 IDT" finished-at="2020-10-21T12:49:39 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tc01_OpenLogin()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="tc01_OpenLogin" duration-ms="5010" started-at="2020-10-21T12:49:39 IDT" description="Open Login" finished-at="2020-10-21T12:49:44 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_OpenLogin -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@131276c2]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T12:49:44 IDT" finished-at="2020-10-21T12:49:44 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_OpenLogin status=SUCCESS method=RunningSoftware.tc01_OpenLogin()[pri:0, instance:Tests.RunningSoftware@131276c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_TestingCalculationSoftware()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="tc02_TestingCalculationSoftware" duration-ms="313" started-at="2020-10-21T12:49:44 IDT" description="Click On The Start" finished-at="2020-10-21T12:49:44 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_TestingCalculationSoftware -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@131276c2]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T12:49:44 IDT" finished-at="2020-10-21T12:49:44 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_TestingCalculationSoftware status=SUCCESS method=RunningSoftware.tc02_TestingCalculationSoftware()[pri:0, instance:Tests.RunningSoftware@131276c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_OpeningQuizPage()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="tc03_OpeningQuizPage" duration-ms="3006" started-at="2020-10-21T12:49:44 IDT" description="Select the quiz template" finished-at="2020-10-21T12:49:47 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_OpeningQuizPage -->
+        <test-method status="PASS" signature="tc04_ChooseTemplateOfQuiz()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="tc04_ChooseTemplateOfQuiz" duration-ms="12735" started-at="2020-10-21T12:49:47 IDT" description="Choosing the project I will work on" finished-at="2020-10-21T12:50:00 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_ChooseTemplateOfQuiz -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@131276c2]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T12:49:47 IDT" finished-at="2020-10-21T12:49:47 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_OpeningQuizPage status=SUCCESS method=RunningSoftware.tc03_OpeningQuizPage()[pri:0, instance:Tests.RunningSoftware@131276c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@131276c2]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T12:50:00 IDT" finished-at="2020-10-21T12:50:00 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_ChooseTemplateOfQuiz status=SUCCESS method=RunningSoftware.tc04_ChooseTemplateOfQuiz()[pri:0, instance:Tests.RunningSoftware@131276c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc05_AnsweringTheQuestions()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="tc05_AnsweringTheQuestions" duration-ms="25261" started-at="2020-10-21T12:50:00 IDT" description="The questions need to be answered" finished-at="2020-10-21T12:50:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_AnsweringTheQuestions -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@131276c2]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T12:50:25 IDT" finished-at="2020-10-21T12:50:25 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_AnsweringTheQuestions status=SUCCESS method=RunningSoftware.tc05_AnsweringTheQuestions()[pri:0, instance:Tests.RunningSoftware@131276c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc06_backToTemplate()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="tc06_backToTemplate" duration-ms="123" started-at="2020-10-21T12:50:25 IDT" description="Back to Template" finished-at="2020-10-21T12:50:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_backToTemplate -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@131276c2]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T12:50:25 IDT" finished-at="2020-10-21T12:50:25 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_backToTemplate status=SUCCESS method=RunningSoftware.tc06_backToTemplate()[pri:0, instance:Tests.RunningSoftware@131276c2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RunningSoftware@131276c2]" name="tearDown" is-config="true" duration-ms="623" started-at="2020-10-21T12:50:25 IDT" finished-at="2020-10-21T12:50:26 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RunningSoftware -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

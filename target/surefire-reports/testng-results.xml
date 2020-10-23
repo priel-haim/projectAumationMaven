@@ -1,0 +1,554 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="29" passed="29">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="312995" started-at="2020-10-21T13:42:09 IDT" finished-at="2020-10-21T13:47:22 IDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="312995" started-at="2020-10-21T13:42:09 IDT" finished-at="2020-10-21T13:47:22 IDT">
+      <class name="Tests.CustomShirtConfigurator">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="Setup" is-config="true" duration-ms="9369" started-at="2020-10-21T13:43:13 IDT" finished-at="2020-10-21T13:43:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tc01_OpenLogin()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="tc01_OpenLogin" duration-ms="5306" started-at="2020-10-21T13:43:22 IDT" description="Sign in with my name details" finished-at="2020-10-21T13:43:27 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_OpenLogin -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:43:27 IDT" finished-at="2020-10-21T13:43:27 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_OpenLogin status=SUCCESS method=CustomShirtConfigurator.tc01_OpenLogin()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_StartToProject()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="tc02_StartToProject" duration-ms="1489" started-at="2020-10-21T13:43:27 IDT" description="Click on START" finished-at="2020-10-21T13:43:29 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_StartToProject -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:43:29 IDT" finished-at="2020-10-21T13:43:29 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_StartToProject status=SUCCESS method=CustomShirtConfigurator.tc02_StartToProject()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_OpeningPaymentFormPage()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="tc03_OpeningPaymentFormPage" duration-ms="8853" started-at="2020-10-21T13:43:29 IDT" description="Choose my project type" finished-at="2020-10-21T13:43:38 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_OpeningPaymentFormPage -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:43:38 IDT" finished-at="2020-10-21T13:43:38 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_OpeningPaymentFormPage status=SUCCESS method=CustomShirtConfigurator.tc03_OpeningPaymentFormPage()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_ChooseYourShirtPage()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="tc04_ChooseYourShirtPage" duration-ms="16233" started-at="2020-10-21T13:43:38 IDT" description="Choose my projact" finished-at="2020-10-21T13:43:54 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_ChooseYourShirtPage -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:43:54 IDT" finished-at="2020-10-21T13:43:54 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_ChooseYourShirtPage status=SUCCESS method=CustomShirtConfigurator.tc04_ChooseYourShirtPage()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc05_ShirtDimensionsPage()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="tc05_ShirtDimensionsPage" duration-ms="37803" started-at="2020-10-21T13:43:54 IDT" description="Dimensions of the garment" finished-at="2020-10-21T13:44:32 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_ShirtDimensionsPage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="tearDown" is-config="true" duration-ms="594" started-at="2020-10-21T13:44:32 IDT" finished-at="2020-10-21T13:44:32 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:44:32 IDT" finished-at="2020-10-21T13:44:32 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_ShirtDimensionsPage status=SUCCESS method=CustomShirtConfigurator.tc05_ShirtDimensionsPage()[pri:0, instance:Tests.CustomShirtConfigurator@71318ec4] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- Tests.CustomShirtConfigurator -->
+      <class name="Tests.RunningSoftware">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="Setup" is-config="true" duration-ms="10961" started-at="2020-10-21T13:42:09 IDT" finished-at="2020-10-21T13:42:20 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tc01_OpenLogin()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="tc01_OpenLogin" duration-ms="5971" started-at="2020-10-21T13:42:20 IDT" description="Open Login" finished-at="2020-10-21T13:42:26 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_OpenLogin -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="failedTest" is-config="true" duration-ms="2" started-at="2020-10-21T13:42:26 IDT" finished-at="2020-10-21T13:42:26 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_OpenLogin status=SUCCESS method=RunningSoftware.tc01_OpenLogin()[pri:0, instance:Tests.RunningSoftware@31dc339b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_TestingCalculationSoftware()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="tc02_TestingCalculationSoftware" duration-ms="668" started-at="2020-10-21T13:42:26 IDT" description="Click On The Start" finished-at="2020-10-21T13:42:26 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_TestingCalculationSoftware -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:42:26 IDT" finished-at="2020-10-21T13:42:26 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_TestingCalculationSoftware status=SUCCESS method=RunningSoftware.tc02_TestingCalculationSoftware()[pri:0, instance:Tests.RunningSoftware@31dc339b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_OpeningQuizPage()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="tc03_OpeningQuizPage" duration-ms="3274" started-at="2020-10-21T13:42:26 IDT" description="Select the quiz template" finished-at="2020-10-21T13:42:30 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_OpeningQuizPage -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:42:30 IDT" finished-at="2020-10-21T13:42:30 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_OpeningQuizPage status=SUCCESS method=RunningSoftware.tc03_OpeningQuizPage()[pri:0, instance:Tests.RunningSoftware@31dc339b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_ChooseTemplateOfQuiz()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="tc04_ChooseTemplateOfQuiz" duration-ms="16254" started-at="2020-10-21T13:42:30 IDT" description="Choosing the project I will work on" finished-at="2020-10-21T13:42:46 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_ChooseTemplateOfQuiz -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:42:46 IDT" finished-at="2020-10-21T13:42:46 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_ChooseTemplateOfQuiz status=SUCCESS method=RunningSoftware.tc04_ChooseTemplateOfQuiz()[pri:0, instance:Tests.RunningSoftware@31dc339b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc05_AnsweringTheQuestions()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="tc05_AnsweringTheQuestions" duration-ms="25979" started-at="2020-10-21T13:42:46 IDT" description="The questions need to be answered" finished-at="2020-10-21T13:43:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_AnsweringTheQuestions -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:43:12 IDT" finished-at="2020-10-21T13:43:12 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_AnsweringTheQuestions status=SUCCESS method=RunningSoftware.tc05_AnsweringTheQuestions()[pri:0, instance:Tests.RunningSoftware@31dc339b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc06_backToTemplate()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="tc06_backToTemplate" duration-ms="198" started-at="2020-10-21T13:43:12 IDT" description="Back to Template" finished-at="2020-10-21T13:43:12 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_backToTemplate -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:43:12 IDT" finished-at="2020-10-21T13:43:12 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_backToTemplate status=SUCCESS method=RunningSoftware.tc06_backToTemplate()[pri:0, instance:Tests.RunningSoftware@31dc339b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.RunningSoftware@31dc339b]" name="tearDown" is-config="true" duration-ms="622" started-at="2020-10-21T13:43:12 IDT" finished-at="2020-10-21T13:43:13 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.RunningSoftware -->
+      <class name="Tests.ShoppingOrderForm">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="Setup" is-config="true" duration-ms="10080" started-at="2020-10-21T13:46:01 IDT" finished-at="2020-10-21T13:46:11 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tc01_openLogin()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="tc01_openLogin" duration-ms="5674" started-at="2020-10-21T13:46:11 IDT" description="Sign in with my name details" finished-at="2020-10-21T13:46:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_openLogin -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:46:17 IDT" finished-at="2020-10-21T13:46:17 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_openLogin status=SUCCESS method=ShoppingOrderForm.tc01_openLogin()[pri:0, instance:Tests.ShoppingOrderForm@31610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_startToProject()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="tc02_startToProject" duration-ms="529" started-at="2020-10-21T13:46:17 IDT" description="click on START" finished-at="2020-10-21T13:46:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_startToProject -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:46:17 IDT" finished-at="2020-10-21T13:46:17 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_startToProject status=SUCCESS method=ShoppingOrderForm.tc02_startToProject()[pri:0, instance:Tests.ShoppingOrderForm@31610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_openingPaymentFormPage()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="tc03_openingPaymentFormPage" duration-ms="8268" started-at="2020-10-21T13:46:17 IDT" description="Select the template type" finished-at="2020-10-21T13:46:25 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_openingPaymentFormPage -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:46:25 IDT" finished-at="2020-10-21T13:46:25 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_openingPaymentFormPage status=SUCCESS method=ShoppingOrderForm.tc03_openingPaymentFormPage()[pri:0, instance:Tests.ShoppingOrderForm@31610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc04_chooseTypeProject()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="tc04_chooseTypeProject" duration-ms="9144" started-at="2020-10-21T13:46:25 IDT" description="my type project" finished-at="2020-10-21T13:46:35 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_chooseTypeProject -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:46:35 IDT" finished-at="2020-10-21T13:46:35 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_chooseTypeProject status=SUCCESS method=ShoppingOrderForm.tc04_chooseTypeProject()[pri:0, instance:Tests.ShoppingOrderForm@31610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc05_fillOrderFormTest()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="tc05_fillOrderFormTest" duration-ms="46478" started-at="2020-10-21T13:46:35 IDT" description="Test Pay order form template" finished-at="2020-10-21T13:47:21 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc05_fillOrderFormTest -->
+        <test-method status="PASS" signature="tc06_backToTemplate()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="tc06_backToTemplate" duration-ms="158" started-at="2020-10-21T13:47:21 IDT" description="Back to Template" finished-at="2020-10-21T13:47:21 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc06_backToTemplate -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:47:21 IDT" finished-at="2020-10-21T13:47:21 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc05_fillOrderFormTest status=SUCCESS method=ShoppingOrderForm.tc05_fillOrderFormTest()[pri:0, instance:Tests.ShoppingOrderForm@31610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="tearDown" is-config="true" duration-ms="608" started-at="2020-10-21T13:47:21 IDT" finished-at="2020-10-21T13:47:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.ShoppingOrderForm@31610302]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:47:21 IDT" finished-at="2020-10-21T13:47:21 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc06_backToTemplate status=SUCCESS method=ShoppingOrderForm.tc06_backToTemplate()[pri:0, instance:Tests.ShoppingOrderForm@31610302] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- Tests.ShoppingOrderForm -->
+      <class name="Tests.TestLoginSite">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="Setup" is-config="true" duration-ms="9045" started-at="2020-10-21T13:45:08 IDT" finished-at="2020-10-21T13:45:17 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tc01_LoginSite()[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="tc01_LoginSite" duration-ms="5190" started-at="2020-10-21T13:45:17 IDT" finished-at="2020-10-21T13:45:22 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_LoginSite -->
+        <test-method status="PASS" signature="tc02_SignOut()[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="tc02_SignOut" duration-ms="4824" started-at="2020-10-21T13:45:22 IDT" finished-at="2020-10-21T13:45:27 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_SignOut -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:22 IDT" finished-at="2020-10-21T13:45:22 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_LoginSite status=SUCCESS method=TestLoginSite.tc01_LoginSite()[pri:0, instance:Tests.TestLoginSite@544fe44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_ForgetMyPassworf()[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="tc03_ForgetMyPassworf" duration-ms="5399" started-at="2020-10-21T13:45:27 IDT" finished-at="2020-10-21T13:45:32 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_ForgetMyPassworf -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:27 IDT" finished-at="2020-10-21T13:45:27 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_SignOut status=SUCCESS method=TestLoginSite.tc02_SignOut()[pri:0, instance:Tests.TestLoginSite@544fe44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="tearDown" is-config="true" duration-ms="596" started-at="2020-10-21T13:45:32 IDT" finished-at="2020-10-21T13:45:33 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestLoginSite@544fe44c]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:32 IDT" finished-at="2020-10-21T13:45:32 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_ForgetMyPassworf status=SUCCESS method=TestLoginSite.tc03_ForgetMyPassworf()[pri:0, instance:Tests.TestLoginSite@544fe44c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+      </class> <!-- Tests.TestLoginSite -->
+      <class name="Tests.AccountUpgrade">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="Setup" is-config="true" duration-ms="9802" started-at="2020-10-21T13:44:32 IDT" finished-at="2020-10-21T13:44:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tc01_OpenLogin()[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="tc01_OpenLogin" duration-ms="13671" started-at="2020-10-21T13:44:42 IDT" description="Sign in with my name details" finished-at="2020-10-21T13:44:56 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_OpenLogin -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:44:56 IDT" finished-at="2020-10-21T13:44:56 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_OpenLogin status=SUCCESS method=AccountUpgrade.tc01_OpenLogin()[pri:0, instance:Tests.AccountUpgrade@a67c67e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_ChooseUpgrate()[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="tc02_ChooseUpgrate" duration-ms="746" started-at="2020-10-21T13:44:56 IDT" description="click on the button to upgrade" finished-at="2020-10-21T13:44:57 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_ChooseUpgrate -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:44:57 IDT" finished-at="2020-10-21T13:44:57 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_ChooseUpgrate status=SUCCESS method=AccountUpgrade.tc02_ChooseUpgrate()[pri:0, instance:Tests.AccountUpgrade@a67c67e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc03_chooseTypeUpgrade()[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="tc03_chooseTypeUpgrade" duration-ms="5044" started-at="2020-10-21T13:44:57 IDT" description="choose in upgrade" finished-at="2020-10-21T13:45:02 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc03_chooseTypeUpgrade -->
+        <test-method status="PASS" signature="tc04_FillInDetails()[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="tc04_FillInDetails" duration-ms="5499" started-at="2020-10-21T13:45:02 IDT" description="The details of the means of payment, and personal details should be stated" finished-at="2020-10-21T13:45:07 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc04_FillInDetails -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:02 IDT" finished-at="2020-10-21T13:45:02 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc03_chooseTypeUpgrade status=SUCCESS method=AccountUpgrade.tc03_chooseTypeUpgrade()[pri:0, instance:Tests.AccountUpgrade@a67c67e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:07 IDT" finished-at="2020-10-21T13:45:07 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc04_FillInDetails status=SUCCESS method=AccountUpgrade.tc04_FillInDetails()[pri:0, instance:Tests.AccountUpgrade@a67c67e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.AccountUpgrade@a67c67e]" name="tearDown" is-config="true" duration-ms="601" started-at="2020-10-21T13:45:07 IDT" finished-at="2020-10-21T13:45:08 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.AccountUpgrade -->
+      <class name="Tests.TestUserAndPassword">
+        <test-method status="PASS" signature="Setup()[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="Setup" is-config="true" duration-ms="9426" started-at="2020-10-21T13:45:33 IDT" finished-at="2020-10-21T13:45:42 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="tc01_OpenLogin()[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="tc01_OpenLogin" duration-ms="4408" started-at="2020-10-21T13:45:42 IDT" description="Test the login failed scenario - check that login failed, and you get the right message" finished-at="2020-10-21T13:45:47 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc01_OpenLogin -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:47 IDT" finished-at="2020-10-21T13:45:47 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc01_OpenLogin status=SUCCESS method=TestUserAndPassword.tc01_OpenLogin()[pri:0, instance:Tests.TestUserAndPassword@21213b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="tc02_OpenLogin2" duration-ms="3343" started-at="2020-10-21T13:45:47 IDT" description="use incorect login information" data-provider="getData" finished-at="2020-10-21T13:45:50 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pppp@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[111111]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_OpenLogin2 -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:45:50 IDT" finished-at="2020-10-21T13:45:50 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_OpenLogin2 status=SUCCESS method=TestUserAndPassword.tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="tc02_OpenLogin2" duration-ms="3263" started-at="2020-10-21T13:45:50 IDT" description="use incorect login information" data-provider="getData" finished-at="2020-10-21T13:45:53 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[papa@walla.co.il]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_OpenLogin2 -->
+        <test-method status="PASS" signature="tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="tc02_OpenLogin2" duration-ms="3459" started-at="2020-10-21T13:45:53 IDT" description="use incorect login information" data-provider="getData" finished-at="2020-10-21T13:45:57 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prielha1234@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_OpenLogin2 -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:53 IDT" finished-at="2020-10-21T13:45:53 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_OpenLogin2 status=SUCCESS method=TestUserAndPassword.tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="failedTest" is-config="true" duration-ms="0" started-at="2020-10-21T13:45:57 IDT" finished-at="2020-10-21T13:45:57 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_OpenLogin2 status=SUCCESS method=TestUserAndPassword.tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="tc02_OpenLogin2" duration-ms="3481" started-at="2020-10-21T13:45:57 IDT" description="use incorect login information" data-provider="getData" finished-at="2020-10-21T13:46:00 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[prielhaim7485@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[PrielHam1985]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc02_OpenLogin2 -->
+        <test-method status="PASS" signature="failedTest(org.testng.ITestResult)[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="failedTest" is-config="true" duration-ms="1" started-at="2020-10-21T13:46:00 IDT" finished-at="2020-10-21T13:46:00 IDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc02_OpenLogin2 status=SUCCESS method=TestUserAndPassword.tc02_OpenLogin2(java.lang.String, java.lang.String)[pri:0, instance:Tests.TestUserAndPassword@21213b92] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- failedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:Tests.TestUserAndPassword@21213b92]" name="tearDown" is-config="true" duration-ms="603" started-at="2020-10-21T13:46:00 IDT" finished-at="2020-10-21T13:46:01 IDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- Tests.TestUserAndPassword -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

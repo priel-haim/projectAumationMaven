@@ -1,0 +1,224 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>29/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Oct 21 13:42:09 IDT 2020</td>
+</tr>
+<tr><td>Total time:</td><td>312 seconds (312995 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Tests.TestLoginSite.tc01_LoginSite()'><b>tc01_LoginSite</b><br>Test class: Tests.TestLoginSite</td>
+<td></td>
+<td>5</td>
+<td>Tests.TestLoginSite@544fe44c</td></tr>
+<tr>
+<td title='Tests.RunningSoftware.tc01_OpenLogin()'><b>tc01_OpenLogin</b><br>Test class: Tests.RunningSoftware<br>Test method: Open Login</td>
+<td></td>
+<td>5</td>
+<td>Tests.RunningSoftware@31dc339b</td></tr>
+<tr>
+<td title='Tests.CustomShirtConfigurator.tc01_OpenLogin()'><b>tc01_OpenLogin</b><br>Test class: Tests.CustomShirtConfigurator<br>Test method: Sign in with my name details</td>
+<td></td>
+<td>5</td>
+<td>Tests.CustomShirtConfigurator@71318ec4</td></tr>
+<tr>
+<td title='Tests.AccountUpgrade.tc01_OpenLogin()'><b>tc01_OpenLogin</b><br>Test class: Tests.AccountUpgrade<br>Test method: Sign in with my name details</td>
+<td></td>
+<td>13</td>
+<td>Tests.AccountUpgrade@a67c67e</td></tr>
+<tr>
+<td title='Tests.TestUserAndPassword.tc01_OpenLogin()'><b>tc01_OpenLogin</b><br>Test class: Tests.TestUserAndPassword<br>Test method: Test the login failed scenario - check that login failed, and you get the right message</td>
+<td></td>
+<td>4</td>
+<td>Tests.TestUserAndPassword@21213b92</td></tr>
+<tr>
+<td title='Tests.ShoppingOrderForm.tc01_openLogin()'><b>tc01_openLogin</b><br>Test class: Tests.ShoppingOrderForm<br>Test method: Sign in with my name details</td>
+<td></td>
+<td>5</td>
+<td>Tests.ShoppingOrderForm@31610302</td></tr>
+<tr>
+<td title='Tests.AccountUpgrade.tc02_ChooseUpgrate()'><b>tc02_ChooseUpgrate</b><br>Test class: Tests.AccountUpgrade<br>Test method: click on the button to upgrade</td>
+<td></td>
+<td>0</td>
+<td>Tests.AccountUpgrade@a67c67e</td></tr>
+<tr>
+<td title='Tests.TestUserAndPassword.tc02_OpenLogin2()'><b>tc02_OpenLogin2</b><br>Test class: Tests.TestUserAndPassword<br>Test method: use incorect login information<br>Parameters: pppp@gmail.com, 111111</td>
+<td></td>
+<td>3</td>
+<td>Tests.TestUserAndPassword@21213b92</td></tr>
+<tr>
+<td title='Tests.TestUserAndPassword.tc02_OpenLogin2()'><b>tc02_OpenLogin2</b><br>Test class: Tests.TestUserAndPassword<br>Test method: use incorect login information<br>Parameters: papa@walla.co.il, 123456</td>
+<td></td>
+<td>3</td>
+<td>Tests.TestUserAndPassword@21213b92</td></tr>
+<tr>
+<td title='Tests.TestUserAndPassword.tc02_OpenLogin2()'><b>tc02_OpenLogin2</b><br>Test class: Tests.TestUserAndPassword<br>Test method: use incorect login information<br>Parameters: prielha1234@gmail.com, 1985</td>
+<td></td>
+<td>3</td>
+<td>Tests.TestUserAndPassword@21213b92</td></tr>
+<tr>
+<td title='Tests.TestUserAndPassword.tc02_OpenLogin2()'><b>tc02_OpenLogin2</b><br>Test class: Tests.TestUserAndPassword<br>Test method: use incorect login information<br>Parameters: prielhaim7485@gmail.com, PrielHam1985</td>
+<td></td>
+<td>3</td>
+<td>Tests.TestUserAndPassword@21213b92</td></tr>
+<tr>
+<td title='Tests.TestLoginSite.tc02_SignOut()'><b>tc02_SignOut</b><br>Test class: Tests.TestLoginSite</td>
+<td></td>
+<td>4</td>
+<td>Tests.TestLoginSite@544fe44c</td></tr>
+<tr>
+<td title='Tests.CustomShirtConfigurator.tc02_StartToProject()'><b>tc02_StartToProject</b><br>Test class: Tests.CustomShirtConfigurator<br>Test method: Click on START</td>
+<td></td>
+<td>1</td>
+<td>Tests.CustomShirtConfigurator@71318ec4</td></tr>
+<tr>
+<td title='Tests.RunningSoftware.tc02_TestingCalculationSoftware()'><b>tc02_TestingCalculationSoftware</b><br>Test class: Tests.RunningSoftware<br>Test method: Click On The Start</td>
+<td></td>
+<td>0</td>
+<td>Tests.RunningSoftware@31dc339b</td></tr>
+<tr>
+<td title='Tests.ShoppingOrderForm.tc02_startToProject()'><b>tc02_startToProject</b><br>Test class: Tests.ShoppingOrderForm<br>Test method: click on START</td>
+<td></td>
+<td>0</td>
+<td>Tests.ShoppingOrderForm@31610302</td></tr>
+<tr>
+<td title='Tests.TestLoginSite.tc03_ForgetMyPassworf()'><b>tc03_ForgetMyPassworf</b><br>Test class: Tests.TestLoginSite</td>
+<td></td>
+<td>5</td>
+<td>Tests.TestLoginSite@544fe44c</td></tr>
+<tr>
+<td title='Tests.CustomShirtConfigurator.tc03_OpeningPaymentFormPage()'><b>tc03_OpeningPaymentFormPage</b><br>Test class: Tests.CustomShirtConfigurator<br>Test method: Choose my project type</td>
+<td></td>
+<td>8</td>
+<td>Tests.CustomShirtConfigurator@71318ec4</td></tr>
+<tr>
+<td title='Tests.RunningSoftware.tc03_OpeningQuizPage()'><b>tc03_OpeningQuizPage</b><br>Test class: Tests.RunningSoftware<br>Test method: Select the quiz template</td>
+<td></td>
+<td>3</td>
+<td>Tests.RunningSoftware@31dc339b</td></tr>
+<tr>
+<td title='Tests.AccountUpgrade.tc03_chooseTypeUpgrade()'><b>tc03_chooseTypeUpgrade</b><br>Test class: Tests.AccountUpgrade<br>Test method: choose in upgrade</td>
+<td></td>
+<td>5</td>
+<td>Tests.AccountUpgrade@a67c67e</td></tr>
+<tr>
+<td title='Tests.ShoppingOrderForm.tc03_openingPaymentFormPage()'><b>tc03_openingPaymentFormPage</b><br>Test class: Tests.ShoppingOrderForm<br>Test method: Select the template type</td>
+<td></td>
+<td>8</td>
+<td>Tests.ShoppingOrderForm@31610302</td></tr>
+<tr>
+<td title='Tests.RunningSoftware.tc04_ChooseTemplateOfQuiz()'><b>tc04_ChooseTemplateOfQuiz</b><br>Test class: Tests.RunningSoftware<br>Test method: Choosing the project I will work on</td>
+<td></td>
+<td>16</td>
+<td>Tests.RunningSoftware@31dc339b</td></tr>
+<tr>
+<td title='Tests.CustomShirtConfigurator.tc04_ChooseYourShirtPage()'><b>tc04_ChooseYourShirtPage</b><br>Test class: Tests.CustomShirtConfigurator<br>Test method: Choose my projact</td>
+<td></td>
+<td>16</td>
+<td>Tests.CustomShirtConfigurator@71318ec4</td></tr>
+<tr>
+<td title='Tests.AccountUpgrade.tc04_FillInDetails()'><b>tc04_FillInDetails</b><br>Test class: Tests.AccountUpgrade<br>Test method: The details of the means of payment, and personal details should be stated</td>
+<td></td>
+<td>5</td>
+<td>Tests.AccountUpgrade@a67c67e</td></tr>
+<tr>
+<td title='Tests.ShoppingOrderForm.tc04_chooseTypeProject()'><b>tc04_chooseTypeProject</b><br>Test class: Tests.ShoppingOrderForm<br>Test method: my type project</td>
+<td></td>
+<td>9</td>
+<td>Tests.ShoppingOrderForm@31610302</td></tr>
+<tr>
+<td title='Tests.RunningSoftware.tc05_AnsweringTheQuestions()'><b>tc05_AnsweringTheQuestions</b><br>Test class: Tests.RunningSoftware<br>Test method: The questions need to be answered</td>
+<td></td>
+<td>25</td>
+<td>Tests.RunningSoftware@31dc339b</td></tr>
+<tr>
+<td title='Tests.CustomShirtConfigurator.tc05_ShirtDimensionsPage()'><b>tc05_ShirtDimensionsPage</b><br>Test class: Tests.CustomShirtConfigurator<br>Test method: Dimensions of the garment</td>
+<td></td>
+<td>37</td>
+<td>Tests.CustomShirtConfigurator@71318ec4</td></tr>
+<tr>
+<td title='Tests.ShoppingOrderForm.tc05_fillOrderFormTest()'><b>tc05_fillOrderFormTest</b><br>Test class: Tests.ShoppingOrderForm<br>Test method: Test Pay order form template</td>
+<td></td>
+<td>46</td>
+<td>Tests.ShoppingOrderForm@31610302</td></tr>
+<tr>
+<td title='Tests.RunningSoftware.tc06_backToTemplate()'><b>tc06_backToTemplate</b><br>Test class: Tests.RunningSoftware<br>Test method: Back to Template</td>
+<td></td>
+<td>0</td>
+<td>Tests.RunningSoftware@31dc339b</td></tr>
+<tr>
+<td title='Tests.ShoppingOrderForm.tc06_backToTemplate()'><b>tc06_backToTemplate</b><br>Test class: Tests.ShoppingOrderForm<br>Test method: Back to Template</td>
+<td></td>
+<td>0</td>
+<td>Tests.ShoppingOrderForm@31610302</td></tr>
+</table><p>
+</body>
+</html>
